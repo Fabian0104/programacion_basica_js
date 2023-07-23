@@ -1,26 +1,27 @@
-let rojas = 10;
-let verdes = "20";
-
-function suma(num1, num2) {
+// Función que suma 2 parametros y returna el total
+function sumar(num1, num2) {
     let total = num1 + num2;
-    console.log(total);
+    return total;
 };
 
-function resta(num1, num2) {
+// Función que resta 2 parametros y returna el total
+function restar(num1, num2) {
     let total;
     if(num1 > num2){
         total = num1 - num2;
     } else {
         total = num2 - num1;
     }
-    console.log(total);
+    return total
 }
 
+// Función que multiplica 2 parametros y returna el total
 function multiplicar(num1, num2) {
     let total = num1 * num2;
-    console.log(total);
+    return total;
 }
 
+// Función que divide 2 parametros y returna el total
 function divir(num1,num2){
     let total;
     if(num1 > num2){
@@ -28,8 +29,8 @@ function divir(num1,num2){
     } else {
         total = num2 / num1;
     }
-    console.log(total);
+    return total;
 }
 
-divir(rojas, verdes);
-divir(verdes, rojas);
+
+
